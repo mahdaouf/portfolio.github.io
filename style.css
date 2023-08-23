@@ -1,0 +1,53 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(241, 56, 118);
+}
+.image{
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    object-fit: cover;
+}
+
+.name{
+    margin: 50px;
+    font-size: 30px;
+    font-family: "georgia";
+}
+ul{
+     display: flex;
+     flex-direction: row;
+     list-style-type: none;
+ }
+
+ img{
+     height: 50px;
+     width: 50px;
+     margin: 50px;
+ }
+ .socials img:hover{
+     transform: rotate(340deg);
+    
+           }
+
+           th, td {
+            border: 2px solid #ccc;
+            padding: 7px;
+        }
+        td {
+            background-color: lavenderblush;
+        }
+        
+        th {
+            background-color: rosebrown;
+            color: black;
+            background-image: url('backgroundimage1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
