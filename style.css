@@ -51,3 +51,10 @@ ul{
             background-position: center;
             background-repeat: no-repeat;
         }
+
+   .projects, .skills {
+    margin-top: 20px;
+    }
+    .project-item, .skill-item {
+    margin-bottom: 15px;
+    }
